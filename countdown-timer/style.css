@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://cdn.wallpaperhub.app/cloudcache/8/6/d/0/6/5/86d065ca4d0bc8008c6493f6cecb878a209d1905.png");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    color: white;
+    margin-top: -10rem;
+}
+.countdown-container{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
